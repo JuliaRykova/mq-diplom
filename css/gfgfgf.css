@@ -1,0 +1,979 @@
+
+@media(min-width:641px) and (max-width:1200px){
+
+    /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  } */
+  /* h1 {
+    font-size: 45px;
+    font-family: "Open Sans";
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+  } */
+  
+  /* time {
+    font-size: 12px;
+    font-family: "Open Sans";
+    text-transform: lowercase;
+  }
+  
+  a {
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+  } */
+  
+  /* a:hover:after {
+    width: 100%;
+  }
+  
+  ul {
+    padding: 0px;
+    margin: 0;
+  } */
+  /* ul li {
+    padding: 0px;
+    list-style: none;
+    display: inline;
+  }
+  
+   footer {
+    display: flex;
+    justify-content: center;
+    margin-top: -59px;
+    margin-left: -23px;
+  } */
+  
+  /* header */
+  
+  .header {
+    width:100vw;
+    height: 390px;
+    /* color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    background-color: rgb(136, 136, 136);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 30px;
+    z-index: 1; */
+  }
+/*   
+  .header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 2;
+  } */
+  
+  .hero-page {
+  /*   min-width: 1200px;    исправить минимальный размер!!!!!!!!!!!!!!!!!!*/
+    width: 100%;
+  }
+/*   
+  .hero-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  
+    max-width: 1200px;
+    margin: auto;
+  }
+  .hero-wrapper,
+  .img-logo-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .img-logo {
+    z-index: 3;
+  } */
+  
+  /* .menu-list {
+    position: relative;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    z-index: 3;
+    font-size: 13px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  
+  .menu-list-item {
+    display: inline-block;
+    padding: 0px 10px 0px 23px;
+  }
+  
+  .menu-list-item:nth-child(-n + 5) {
+    padding-left: 22px;
+  } */
+  
+  /* .menu-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .menu-link:after {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 1px;
+    background-color: #ffffff;
+    content: "";
+    transition: width ease-out;
+  } */
+  
+  /* .hero-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .header__title {
+    z-index: 3;
+  } */
+  /* section */
+    .ternd-post {
+    /* text-align: center; */
+    /* font-size: 20px; */
+      margin-top:30px;
+    /* margin-bottom: 30px; */
+    /* text-transform: uppercase; */
+    /* color: #0f0d0e; */
+    /* font-weight: 700; */
+    /* font-family: "Open Sans"; */
+  }
+    /* .ternd-post::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 65px;
+    height: 3px;
+    background-color: #e1d9bd;
+  } */
+    /* .a-trend {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+  } */
+    /* .p-trend { */
+    /* font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+  } */
+  .trend{
+    display:grid;
+     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+  }
+  .trends_content{
+  /*   display:grid; */
+  /*     width: 50%; */
+  /*   max-width:600px; */
+    /* position: relative;
+    align-items: end;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: -10px; */
+  
+  }
+    /* .trends_content::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
+  } */
+  #content-1{
+  /*   width:50%; */
+    height:200px;
+    background-color: blue;
+      /* background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/trend1.jpg?raw=true"); */
+    /* background-size: cover;
+      min-height: 320px; */
+  }
+  #content-2{
+  /*   width:50%; */
+    height:200px;
+    background-color: red;
+      /* min-height: 320px;
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/trend2.jpg?raw=true");
+    background-size: cover; */
+    margin-left: -8px;
+  }
+  #content-3{
+  /*   width:50%; */
+    height:200px;
+    background-color: yellow;
+    /* min-height: 320px;
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/trend3.jpg?raw=true");
+    background-size: cover; */
+  }
+  #content-4{
+  /*   width:50%; */
+    height:200px;
+    background-color: pink;
+     /* min-height: 320px;
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/trend4.jpg?raw=true");
+    background-size: cover; */
+    margin-left: -8px;
+  }
+    /* .wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 140px;
+    border: 5px solid #b59f5b;
+    margin: 10px;
+    z-index: 3;
+    padding: 35px;
+    margin: 25px;
+  } */
+    
+  /* contentArea */ 
+  /* Остановилась !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  .contentArea {
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: space-between;
+  /*   min-width: 1200px; */
+  /*   max-width: 700px; */
+    /* margin: 0px auto; */
+  }
+  
+  /* main {
+    padding: 40px 10px 0px 0px;
+    margin: 25px;
+    margin-bottom:0; */
+  /*   min-width: 280px; */
+  /*     max-width: 380px; */
+  /* } */
+  
+  /* main */
+  
+  .centerBlock {
+    /* display: flex;
+    flex-direction: column; */
+    width: 778px;
+    /* меньше написать */
+  }
+  
+  .miniBlock {
+    /* margin-bottom: 60px; */
+     max-width:390px;
+  }
+  
+    .under-img{
+      display:flex;
+     
+    }
+  .news-img {
+    display: block;
+  }
+  
+  .post-block-text2 {
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+  
+  /* .link-line {
+    margin: -3px 2px 5px;
+  } */
+  
+  /* .linkTags-centerBlock { */
+    /* display: inline-block;
+    text-decoration: none;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b59f5b;
+    margin-right: 14px;
+  } */
+  
+  /* .linkTags-centerBlock:hover {
+    color: #b59f5b;
+  } */
+  
+  /* .linkTags:hover {
+    font-weight: 900;
+  }
+  .text-post-Link {
+    font-weight: 700;
+  }
+  .text-post-Link:hover {
+    font-weight: 900;
+  } */
+  
+  /* .linkTags-centerBlock:after {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 1px;
+    background-color: #b59f5b;
+    content: "";
+    transition: width ease-out;
+  } */
+  
+  /* .text-post-centerBlock {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    line-height: 24px;
+    margin: 2px 0px 3px;
+  } */
+  
+  /* .timeANDauthor { */
+    /* padding: 15px 0px 0px;
+  }
+  
+  .time-centerBlock {
+    flex-direction: column;
+  } */
+  
+  /* .author {
+    display: inline-block;
+    flex-direction: column;
+    padding-left: 7px;
+    font-family: "Open Sans";
+    font-size: 12px;
+  } */
+  
+  /* .main-text {
+    margin-top: 34px;
+    margin-bottom: -24px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 22px;
+  } */
+  
+  /* aside */
+  /* aside {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .sidePanel {
+    font-family: "Open Sans";
+    text-transform: uppercase;
+  }
+  
+  .headingPost {
+    text-align: center;
+    font-size: 14px;
+    width: 273px;
+    padding-left: 4px;
+    margin-top: 42px;
+    margin-bottom: 8px;
+  } */
+  
+  /* .headingPost::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 65px;
+    height: 3px;
+    background-color: #e1d9bd;
+  }
+  
+  .post:nth-child(1) {
+    margin-top: 22px;
+  } */
+  
+  /* .post:nth-child(n + 1) {
+    display: flex;
+    box-sizing: border-box;
+    margin: 6px 0px 6px;
+    width: 300px;
+    line-height: 18px;
+  }
+  
+  .sidePanel-image {
+    display: inline-block;
+    margin-right: 9px;
+    margin: 8px 1px;
+    max-width: 70px;
+    max-height: 70px;
+  }
+   */
+  /* .post-block-text {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 183px;
+    margin: 2px 0px 0px 17px;
+  }
+  
+  .min-post {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .text-post {
+    margin: 0px;
+    font-size: 14px;
+  } */
+  
+  /* blockSearch */
+  /* .blockSearch {
+    padding: 46px 0px 28px;
+  }
+  
+  .search {
+    display: flex;
+    flex-direction: row;
+    width: 271px;
+    height: 47px;
+    z-index: 3;
+  }
+  
+  .searchField {
+    width: 223px;
+    height: 47px;
+    border: 0px;
+    padding-left: 18px;
+    background: #f4f7f6;
+    font-size: 13px;
+  } */
+  
+  /* input:focus {
+    border-bottom: 1px solid #b59f5b;
+  }
+  
+  .searchField:focus {
+    outline: none;
+  }
+  
+  .searchButton {
+    width: 49px;
+    height: 47px;
+    border: 0px;
+    background: #b59f5b;
+    cursor: pointer;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+  
+  /* blockEmail */
+  
+  /* .headingPost2 {
+    text-align: center;
+    font-size: 14px;
+    width: 261px;
+    padding-left: 6px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+  
+  .headingPost2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 65px;
+    height: 3px;
+    background-color: #e1d9bd;
+  } */
+  
+  /* .email {
+    display: block;
+  
+    width: 270px;
+    height: 43px;
+    border: 0px;
+    padding-left: 17px;
+    background: #f4f7f6;
+    font-size: 13px;
+    margin: 25px 0px 20px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .email:focus {
+    outline: none;
+  } */
+  
+  /* .emailButton {
+    width: 271px;
+    height: 48px;
+    border: 0px;
+    text-align: center;
+    background: #b59f5b;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+   */
+  /* tegs */
+  /* .headingPost3 { */
+    /* text-align: center;
+    font-size: 14px;
+    width: 261px;
+    padding-left: 11px;
+    margin-top: 57px;
+    margin-bottom: 8px;
+  }
+  
+  .headingPost3::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 65px;
+    height: 3px;
+    background-color: #e1d9bd;
+  } */
+  
+  /* .link {
+    width: 275px;
+  } */
+  
+  /* .linkTags {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+    border: 3px solid #eeeeee;
+    padding: 5px 18px 4px 12px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .linkTags:hover {
+    border: 3px solid #b59f5b;
+  } */
+  /* themes */
+  /* .headingPost4 {
+    text-align: center;
+    font-size: 14px;
+    width: 261px;
+    padding-left: 15px;
+    margin-top: 51px;
+    margin-bottom: 8px;
+  }
+  
+  .headingPost4::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 65px;
+    height: 3px;
+    background-color: #e1d9bd;
+  } */
+  
+  /* .themesLink { */
+    /* display: block; */
+    /* display: flex;
+    list-style-type: none;
+    border-bottom: 1px solid #eeeeee;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 12px;
+    margin: 11px 0px 12px;
+  } */
+  
+  /* .themesLink-a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+  }
+  .themesLink-a:hover {
+    color: #b59f5b;
+  }
+  .themesLink-span {
+    display: flex;
+    color: #b59f5b;
+    margin-left: 5px;
+    margin-top: -4px;
+    font-size: 12px;
+  } */
+  /* section */
+      .common-block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+    }
+  /* .common-block{ */
+  /*     display: flex;
+    flex-direction: row;
+    justify-content: center; */
+  /*   min-width: 1200px; */
+  /*   max-width: 1200px;
+    margin: 0px auto;
+      margin-bottom:40px; */
+  /* } */
+  /* h2{
+    font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  font-weight: 700;
+  font-family: "Open Sans";
+  } */
+  /* p{
+    font-size: 15px;
+  line-height: 22px;
+  color: #0f0d0e;
+  font-weight: 400;
+  font-family: "Open Sans";
+  }
+  #goods-post{
+    margin-top:0;
+  }
+  .link-goods{
+    color: #baa464;
+  } */
+  /* .common-block{ */
+  /*     display:flex;
+    flex-direction:row; */
+  /* } */
+  /* .one-block{
+    margin:0 35px ;
+  }
+  .top-block-one{
+    width:300px;
+    height:200px;
+    background-image:url(https://github.com/netology-code/mq-diploma/blob/master/sources/img/shop-item-desk1.jpg?raw=true);
+    margin:25px;
+  margin-left: 23px;
+  }
+  .top-block-two{
+      width:300px;
+    height:200px;
+     background-image:url(https://github.com/netology-code/mq-diploma/blob/master/sources/img/shop-item-desk2.jpg?raw=true);
+     margin:25px;
+    margin-left: 23px;
+  }
+  .top-block-three{
+      width:300px;
+    height:200px;
+     background-image:url(https://github.com/netology-code/mq-diploma/blob/master/sources/img/shop-item-desk3.jpg?raw=true);
+     margin:25px;
+    margin-left: 23px;
+  } */
+  /* .bottom-block{
+    width:346px;
+    min-height:270px;
+    border:4px solid #d3c59d;
+    margin-top:-50px;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr); */
+  /*    grid-template-rows: 30% 30% 40%; */
+    /* padding-top: 32px;
+  } */
+  /* .h2-bottom-block{
+    grid-column:span 2;
+       padding: 10px 0;
+      margin: 10px 0;
+  }
+  .p-bottom-block{
+     grid-column:span 2;
+        padding-top: 21px;
+  } */
+  /* .price{
+    width:52px;
+    flex-wrap:wrap;
+  height: 39px;
+    display: grid;
+    align-items: end;
+    margin-top: 20px;
+  } */
+  /* .price-Button{
+    width: 140px;
+      height: 50px;
+    border:none;
+    color:white;
+    background-color: #b59f5b;
+    font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase; */
+  /* color: #ffffff; */
+  /* font-weight: 700;
+  font-family: "Open Sans"; */
+  /*    justify-items: end; */
+    /* margin-top:14px; */
+  /*   padding:0; */
+    
+  /* } */
+  /* button{
+    display: grid;
+    align-items: end;
+  } */
+  /* .p-bottom-block{
+     margin-top:-35px;
+  }
+  .crossed-out{
+    text-decoration:line-through; */
+  /*   padding:-80; */
+  /* } */
+  /* footer */
+  /* footer {
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .basement {
+  /*   width: 1170px; */
+        width: 1200px;
+      padding: 35px;
+  }
+  
+  /* .greyBasement {
+    display: flex;
+    justify-content: center;
+    height: 84px;
+    background-color: #f4f7f6;
+  } */
+  
+  /* .imgFooter-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  } */
+  
+  /* .imgFooter-li {
+    list-style-type: none;
+  }
+  
+  .imgFooter-link {
+    display: inline;
+  }
+  
+  .imgFooter {
+    display: flex;
+    margin: 0px 10px 0px 17px;
+    min-width: 20px;
+  } */
+  
+  /* .text-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #999999;
+    align-self: center;
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding: 0px 10px 0px 17px;
+  }
+  
+  .copyright {
+    color: #999999;
+  } */
+  
+  }
+  @media(min-width:641px) and (max-width:1200px){
+
+    .header {
+      width:100vw;
+      height: 390px;
+    }
+
+    .hero-page {
+      width: 100%;
+    }
+
+    .ternd-post {
+      margin-top:30px;
+    }
+
+    .trend{
+      display:grid;
+       grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 15px;
+    }
+   
+    #content-1{
+        height:200px;
+        background-color: blue;
+      }
+      #content-2{
+        height:200px;
+        background-color: red;
+        margin-left: -8px;
+      }
+      #content-3{
+        height:200px;
+        background-color: yellow;
+      }
+      #content-4{
+        height:200px;
+        background-color: pink;
+        margin-left: -8px;
+      }
+
+      .contentArea {
+        justify-content: space-between;
+      }
+
+      .centerBlock {
+        width: 778px;/* меньше написать */
+      }
+
+      .miniBlock {
+     max-width:390px;
+    }
+    
+      .under-img{
+        display:flex;
+       
+      }
+    .news-img {
+      display: block;
+    }
+    
+    .post-block-text2 {
+      padding-left: 0px;
+      padding-top: 30px;
+    }
+
+    .common-block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+    }
+
+  .basement {
+  /*   width: 1170px; */
+        width: 1200px;
+      padding: 35px;
+  }
+
+
+
+  
+  .header {
+    width:100vw;
+    height: 390px;
+  }
+
+  .hero-page {
+    width: 100%;
+  }
+
+  .ternd-post {
+    margin-top:30px;
+  }
+  .trends_content {
+    width: 24.5%;
+  }
+  
+  .trend{
+    display:grid;
+     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+  }
+ 
+  #content-1{
+      height:200px;
+      background-color: blue;
+    }
+    #content-2{
+      height:200px;
+      background-color: red;
+      margin-left: -8px;
+    }
+    #content-3{
+      height:200px;
+      background-color: yellow;
+    }
+    #content-4{
+      height:200px;
+      background-color: pink;
+      margin-left: -8px;
+    }
+
+    .contentArea {
+      justify-content: space-between;
+      width: 768px;
+    }
+
+    .centerBlock {
+      width: 380px;/* меньше написать */
+      /* padding-left: 0; */
+    }
+
+    main{
+      padding-right: 0;
+    }
+
+    .miniBlock {
+   max-width:390px;
+  }
+  
+    .under-img{
+      display:flex;
+     
+    }
+  .news-img {
+    display: block;
+  }
+  
+  .post-block-text2 {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .common-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+
+.basement {
+/*   width: 1170px; */
+      width: 1200px;
+    padding: 35px;
+}
