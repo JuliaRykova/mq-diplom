@@ -71,7 +71,7 @@ footer {
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .form-popup::before {
@@ -135,6 +135,11 @@ body {
   -moz-appearance: none;
 }
 
+.select-form:focus-visible{
+  border-bottom: 1px solid rgb(181, 159, 91);
+  outline: none;
+}
+
 .form-mailing-list {
   margin-bottom: 25px;
 }
@@ -167,6 +172,7 @@ body {
 .textarea-form {
   display: block;
   box-sizing: border-box;
+  resize: none;
   width: 100%;
   height: 100px;
   border: none;
@@ -457,11 +463,12 @@ main {
 }
 
 .text-post-Link {
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .text-post-Link:hover {
-  font-weight: 900;
+  /* font-weight: 900; */
+  color: #b59f5b;
 }
 
 .linkTags-centerBlock:after {
